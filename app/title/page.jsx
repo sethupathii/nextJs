@@ -4,7 +4,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-export default function () {
+export default function GetName() {
 
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
